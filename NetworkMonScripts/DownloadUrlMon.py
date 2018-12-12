@@ -14,7 +14,7 @@ def findDownload(pcap):
 					print '[!] ' + src + ' Downloaded LOIC.'
 		except:
 			pass
-f = open()
+f = open() #Enter a pcap file from the downloaded link
 pcap = dpkt.pcap.Reader(f)
 findDownload(pcap)
 
